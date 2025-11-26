@@ -85,9 +85,9 @@
     {
         "columnNumber": 4,
         "era": "Primordial Soup",
-        "techCost": --,
-        "buildingCost": --,
-        "wonderCost": ---,
+        "techCost": 50,
+        "buildingCost": 70,
+        "wonderCost": 185,
         "techs": [
             {
                 "name": "DNA",
@@ -106,9 +106,9 @@
     {
         "columnNumber": 5,
         "era": "Primordial Soup",
-        "techCost": --,
-        "buildingCost": --,
-        "wonderCost": ---,
+        "techCost": 50,
+        "buildingCost": 70,
+        "wonderCost": 185,
         "techs": [
             {
                 "name": "Prokaryotic Cell",
@@ -121,9 +121,9 @@
     {
         "columnNumber": 6,
         "era": "Primordial Soup",
-        "techCost": --,
-        "buildingCost": --,
-        "wonderCost": ---,
+        "techCost": 50,
+        "buildingCost": 70,
+        "wonderCost": 185,
         "techs": [
             {
                 "name": "Nucleus",
@@ -151,9 +151,9 @@
     {
         "columnNumber": 7,
         "era": "Primordial Soup",
-        "techCost": --,
-        "buildingCost": --,
-        "wonderCost": --,
+        "techCost": 50,
+        "buildingCost": 70,
+        "wonderCost": 185,
         "techs": [
             {
                 "name": "Eukaryotic Cell",
