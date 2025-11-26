@@ -5,7 +5,7 @@
         "isNationalWonder": true,
         "production": 1,
         "science": 1,
-        "gold": 1,
+        "Gold": 1,
         "culture": 1,
         "cityStrength": 4,
         "cost": 0,
@@ -32,7 +32,7 @@
     },
     {
         "name": "Ozone Layer",
-        "percentStatBonus": {"gold": 20},
+        "percentStatBonus": {"Gold": 20},
         "cityStrength": 4,
         "cityHealth": 50,
         "isWonder": true,
@@ -61,9 +61,9 @@
     {
         "name": "Enzymes",
         "uniques": [
-            "[50 gold]<upon entering a war with [All] Civilizations>",
-            "[50 gold]<upon declaring friendship>",
-            "[50 gold]<upon declaring a defensive pact>",
+            "[50 Gold]<upon entering a war with [All] Civilizations>",
+            "[50 Gold]<upon declaring friendship>",
+            "[50 Gold]<upon declaring a defensive pact>",
 
         ],
         "requiredTech": "Amino Acid"
@@ -78,7 +78,7 @@
     {
         "name": "Polypeptides",
         "uniques": [
-            "[-20%]% Culture cost of natural border growth [in this city]"
+            "[-20]% Culture cost of natural border growth [in this city]"
         ],
         "requiredTech": "Protein"
     },
@@ -108,14 +108,14 @@
     },
     {
         "name": "Ribosomes",
-        "percentStatBonus": {"production": 10, "gold": 10},
+        "percentStatBonus": {"production": 10, "Gold": 10},
         "requiredTech": "Mitosis"
     },
     {
         "name": "Cytoplasm",
-        "gold": 3,
+        "Gold": 3,
         "faith": 1,
-        "percentStatBonus": {"gold": 10},
+        "percentStatBonus": {"Gold": 10},
         "requiredTech": "Eukaryotic Cell"
     }
     {
