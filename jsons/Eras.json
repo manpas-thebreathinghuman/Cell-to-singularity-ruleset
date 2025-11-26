@@ -1,0 +1,46 @@
+[
+    {
+        "name": "Earth Formation",
+        "researchAgreementCost": 150,
+        "startingSettlerCount": 1, // These values should not include the values given in Difficulties.json
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 0,
+        "startingMilitaryUnit": "Amino Acid",
+        "settlerPopulation": 1,
+        "baseUnitBuyCost": 200,
+        "embarkDefense": 3,
+        "startPercent": 0,
+        "iconRGB": [255, 87, 35]
+    },
+    {        
+        "name": "Primordial Soup",
+        "researchAgreementCost": 150,
+        "startingSettlerCount": 1,
+        "startingWorkerCount": 0,
+        "startingMilitaryUnitCount": 1,
+        "startingMilitaryUnit": "Amino Acid",
+        "settlerPopulation": 1,
+        "baseUnitBuyCost": 200,
+        "embarkDefense": 3,
+        "startPercent": 0,
+        "iconRGB": [255, 87, 35]
+    },
+    {
+        "name": "Information era",
+        "researchAgreementCost": 400,
+        "startingSettlerCount": 3,
+        "startingWorkerCount": 3,
+        "startingMilitaryUnitCount": 5,
+        "startingMilitaryUnit": "Amino Acid",
+        "startingGold": 400,
+        "startingCulture": 600,
+        "settlerPopulation": 5,
+        "settlerBuildings": [],
+        "startingObsoleteWonders": [],
+        "baseUnitBuyCost": 1000,
+        "embarkDefense": 20,
+        "startPercent": 80,
+        "citySound": "cityInformation",
+        "iconRGB": [76, 176, 81]
+    }
+]

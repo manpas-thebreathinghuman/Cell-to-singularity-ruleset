@@ -1,0 +1,54 @@
+[
+    //Spectator
+    {
+        "name": "Spectator",
+        "outerColor": [255,255,255]
+    },
+    //nations
+    {
+        "name": "James Webb Telescope",
+        "leaderName": "James Webb",
+        "adjective": ["Telescopes"],
+        "preferredVictoryType": "Time",
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+        "declaringWar": "",
+        "attacked": "",
+        "defeated": "",
+        "introduction": "",
+        "neutralHello": "",
+        "hateHello": "",
+        "tradeRequest": "",
+        "outerColor": [70, 83, 150],
+        "innerColor": [184, 175, 118],
+        "uniqueName": "Unfold the Universe",
+        "uniques": [],
+        "cities": [
+            "Ground Telescope"
+        ],
+        "spyNames": [
+            "guy"
+        ]
+    }
+    //City-States
+    {
+        "name": "Baku",
+        "adjective": ["Azerbaijani"],
+        "cityStateType": "Cultured",
+        "declaringWar": "We have wanted this for a LONG time. War it shall be.",
+        "attacked": "Very well, we will kick you back to the ancient era!",
+        "defeated": "This isn't how it is supposed to be!",
+        "outerColor": [0, 0, 0],
+        "innerColor": [128, 179, 255],
+        "uniques": [],
+        "cities": ["Baku"]
+    }
+
+    //Barbarian
+    {
+        "name": "Barbarians",
+        "outerColor": [0,0,0],
+        "innerColor": [184,0,0],
+        "uniques": ["Can only heal by pillaging"]
+    }
+]

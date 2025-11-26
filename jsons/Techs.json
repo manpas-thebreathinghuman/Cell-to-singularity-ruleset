@@ -1,0 +1,189 @@
+[
+    {
+        "columnNumber": 0,
+        "era": "Earth Formation",
+        "techCost": 20,
+        "buildingCost": 40,
+        "wonderCost": 185,
+        "techs": [
+            {
+                "name": "Home Star",
+                "row": 2,
+                "quote": "Stars are the power source of the universe. Solar waves pour onto nearby planets and provide energy for millions of years",
+                "uniques": [
+                    "Starting tech"
+                ]
+            }
+        ]
+    },
+    {
+        "columnNumber": 1,
+        "era": "Earth Formation",
+        "techCost": 30,
+        "buildingCost": 40,
+        "wonderCost": 185,
+        "techs": [
+            {
+                "name": "Planet Earth",
+                "prerequisites": ["Home Star"],
+                "row": 2,
+                "quote": "Earth provides just the right mixture of chemicals, an abundance of water, and an oxygen-rich atmosphere, creating the ideal invironment for developing life"
+            }
+        ]
+    },
+    {
+        "columnNumber": 2,
+        "era": "Earth Formation",
+        "techCost": 40,
+        "buildingCost": 50,
+        "wonderCost": 185,
+        "techs": [
+            {
+                "name": "Primordial Soup",
+                "row": 2,
+                "prerequisites": ["Planet Earth"],
+                "civilopediaText": [
+                    {"text": 
+"[+1 Food] from every [Grassland],
+[+1 Food] from every [Plains],
+[+1 Food] from every [Tundra],
+[+2 Food] from every [Lakes],
+[+2 Production] from every [Hill],
+[+1 Food] from every [Forest],
+[+1 Food] from every [Jungle],
+[+2 Food] from every [Oasis],
+[+1 Food] from every [Flood plains],
+[+1 Food] from every [Atoll]"
+                }
+                ],
+                "quote": "On the primeval planet Earth, an atmospheric solution rich in organic compounds set the ideal conditions for the development of life"
+            }
+        ]
+    },
+    //Primordial Soup
+    {
+        "columnNumber": 3,
+        "era": "Primordial Soup",
+        "techCost": 50,
+        "buildingCost": 70,
+        "wonderCost": 185,
+        "techs": [
+            {
+                "name": "Nucleotides",
+                "row": 1,
+                "prerequisites": ["Primordial Soup"],
+                "quote": "Nucleotides are the chemical compounds that build the foundation for DNA and RNA"
+            },
+            {
+                "name": "Amino Acid",
+                "row": 3,
+                "prerequisites": ["Primordial Soup"],
+                "quote": "Atoms and Molecules bond together to create amino acids, organic compounds that combine to build proteins. They are some of the most essential building blocks for life"
+            }
+        ]
+    },
+    {
+        "columnNumber": 4,
+        "era": "Primordial Soup",
+        "techCost": --,
+        "buildingCost": --,
+        "wonderCost": ---,
+        "techs": [
+            {
+                "name": "DNA",
+                "row": 1,
+                "prerequisites": ["Nucleotides"],
+                "quote": "A molecule with the unique property of self-replication, DNA's infinite configurations from the foundation of all evolutionary changes. It contains the genetic instructions for all life on earth"
+            },
+            {
+                "name": "Protein",
+                "row": 3,
+                "prerequisites": ["Amino Acid"],
+                "quote": "The Building blocks of living cells, proteins are molecules made from long chains of amino acids"
+            }
+        ]
+    },
+    {
+        "columnNumber": 5,
+        "era": "Primordial Soup",
+        "techCost": --,
+        "buildingCost": --,
+        "wonderCost": ---,
+        "techs": [
+            {
+                "name": "Prokaryotic Cell",
+                "row": 2,
+                "prerequisites": ["DNA","Protein"],
+                "quote": "The first kiving organism. These tiny uni-cellular organisms lacked a membrane-wrapped nucleus, but paved the way for the rest of life to begin"
+            }
+        ]
+    },
+    {
+        "columnNumber": 6,
+        "era": "Primordial Soup",
+        "techCost": --,
+        "buildingCost": --,
+        "wonderCost": ---,
+        "techs": [
+            {
+                "name": "Nucleus",
+                "row": 1,
+                "prerequisites": ["Prokaryotic Cell"],
+                "quote": "A Cell's control center, the nucelus contains the chromosomes that house DNA"
+            },
+            {
+                "name": "Mitochondria",
+                "row": 2,
+                "prerequisites": ["Prokaryotic Cell"],
+                "uniques": [
+                    "[+20]% [Food] [in all cities]"
+                ],
+                "quote": "The powerhouse of the cell, mitochondria are organelles that converts glucose to energy"
+            },
+            {
+                "name": "Mitosis",
+                "row": 3,
+                "prerequisites": ["Prokaryotic Cell"],
+                "quote": "Mitosis is a process of asexual reproduction where one cell divides into two identical cells, and enables single-celled organisms to multiply"
+            }
+        ]
+    },
+    {
+        "columnNumber": 7,
+        "era": "Primordial Soup",
+        "techCost": --,
+        "buildingCost": --,
+        "wonderCost": --,
+        "techs": [
+            {
+                "name": "Eukaryotic Cell",
+                "row": 2,
+                "prerequisites": ["Nucleus","Mitochondria"],
+                "quote": "The prokaryotic cell's more complex cousin, eukaryotic cells have a nucleus to store genetic information. Fungi, plants, animals, and protozoa are all built of eukaryotic cells"
+            },
+            {
+                "name": "Asexual Reproduction",
+                "row": 3,
+                "prerequisites": ["Mitosis"],
+                "quote": "Similar to mitosis, asexual reproduction is the process by which an entire organism is produced from a single parent. Some types of asexual reproduction are budding, sporification, and parthenogenesis"
+            }
+        ]
+    }
+    //information just in case lmao
+    {
+        "columnNumber": 8,
+        "era": "Information era",
+        "techCost": 10500,
+        "buildingCost": 750,
+        "wonderCost": 1250,
+        "techs": [
+            {
+                "name": "Future Tech",
+                "row": 5,
+                //"prerequisites": ["Nanotechnology","Particle Physics","Nuclear Fusion","Stealth"],
+                "uniques": ["Comment [Who knows what the future holds?]","Can be continually researched"],
+                "quote": "'I think we agree, the past is over.' - George W. Bush"
+            }
+        ]
+    }
+]

@@ -1,0 +1,129 @@
+[
+        // Always available
+    {
+        "name": "Space",
+        "isNationalWonder": true,
+        "production": 1,
+        "science": 1,
+        "gold": 1,
+        "culture": 1,
+        "cityStrength": 4,
+        "cost": 0,
+        "uniques": [
+            "Indicates the capital city"
+        ]
+    },
+    //Earth Formation
+    {
+        "name": "Moon",
+        "culture": 1,
+        "faith": 1,
+        "uniques": [
+            "[+1 Food] from [Ocean] tiles [in this city]",
+            "[+1 Food] from [Coast] tiles [in this city]"
+        ],
+        "requiredTech": "Planet Earth"
+    },
+    {
+        "name": "Volcano",
+        "food": 1,
+        "cityStrength": 2,
+        "requiredTech": "Primordial Soup"
+    },
+    {
+        "name": "Ozone Layer",
+        "percentStatBonus": {"gold": 20},
+        "cityStrength": 4,
+        "cityHealth": 50,
+        "isWonder": true,
+        "quote": "The Ozone layer in the Earth's stratosphere protects the planet from ultraviolet radiation. Overtime, human pollution has damaged this essential barrier",
+        "requiredBuilding": "Volcano",
+        "requiredTech": "Primordial Soup"
+    },
+    //Primordial Soup
+    {
+        "name": "RNA",
+        "uniques": [
+            "[+1 Science] per [2] population [in this city]",
+            "[+1 Production] per [2] population [in this city]"
+        ],
+        "requiredTech": "Nucleotides"
+    },
+    {
+        "name": "DNA Replication",
+        "uniques": [
+            "[+15]% Production when constructing [Chemicals] units [in this city]",
+            "[+15]% Production when constructing [Microbes] units [in this city]"
+        ],
+        "requiredBuilding": "RNA",
+        "requiredTech": "Nucleotides"
+    },
+    {
+        "name": "Enzymes",
+        "uniques": [
+            "[50 gold]<upon entering a war with [All] Civilizations>",
+            "[50 gold]<upon declaring friendship>",
+            "[50 gold]<upon declaring a defensive pact>",
+
+        ],
+        "requiredTech": "Amino Acid"
+    },
+    {
+        "name": "Chromosomes",
+        "uniques": [
+            "[25]% Food is carried over after population increases [in this city]"
+        ],
+        "requiredTech": "DNA"
+    },
+    {
+        "name": "Polypeptides",
+        "uniques": [
+            "[-20%]% Culture cost of natural border growth [in this city]"
+        ],
+        "requiredTech": "Protein"
+    },
+    {
+        "name": "Plasma Membrane",
+        "cityStrength": 1,
+        "culture": 1,
+        "requiredTech": "Protein"
+    },
+    {
+        "name": "Bacterium",
+        "culture": 2,
+        "requiredTech": "Protein"
+    },
+    {
+        "name": "Virus",
+        "culture": 1,
+        "science": 1,
+        "requiredTech": "Prokaryotic Cell"
+    },
+    {
+        "name": "Flagellum",
+        "uniques": [
+            "New [Microbe] units start with [10] XP [in this city]"
+        ],
+        "requiredTech": "Nucleus"
+    },
+    {
+        "name": "Ribosomes",
+        "percentStatBonus": {"production": 10, "gold": 10},
+        "requiredTech": "Mitosis"
+    },
+    {
+        "name": "Cytoplasm",
+        "gold": 3,
+        "faith": 1,
+        "percentStatBonus": {"gold": 10},
+        "requiredTech": "Eukaryotic Cell"
+    }
+    {
+        "name": "Hemaphroditism",
+        "uniques":[
+            "[+2 Culture] per [2] population [in this city]",
+            "[+2 Gold] per [2] population [in this city]"
+        ],
+        "requiredTech": "Asexual Reproduction"
+    }
+]

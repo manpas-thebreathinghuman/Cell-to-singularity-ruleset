@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Civilian",
+        "movementType": "Land"
+    },
+    {
+        "name": "Chemicals",
+        "movementType": "Land",
+        "unique": ["No defensive terrain bonus","Unable to pillage tiles","May travel on Water tiles without embarking","Can enter ice tiles"]
+    },
+    {
+        "name": "Microbes",
+        "movementType": "Water",
+        "unique": ["No defensive terrain bonus","Unable to pillage tiles"]
+    }
+]
