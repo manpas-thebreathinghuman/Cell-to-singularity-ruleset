@@ -135,7 +135,7 @@
     },
 
     // Special improvement
-    /*// Archeology
+    /// Archeology
 	// https://civilization.fandom.com/wiki/Antiquity_Site_(Civ5)
 	/*{
 		"name": "Landmark",
