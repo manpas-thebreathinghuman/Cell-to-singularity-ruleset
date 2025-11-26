@@ -194,7 +194,7 @@
 			"Only available <for [Archaeologist] units>"
 		]
 	},*/
-    {/*
+    /*{
         "name": "Archaeological Dig",
         "terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains","Marsh","Snow"],
 		"turnsToBuild": 4,
