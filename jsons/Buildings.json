@@ -61,9 +61,9 @@
     {
         "name": "Enzymes",
         "uniques": [
-            "[50 Gold]<upon entering a war with [All] Civilizations>",
-            "[50 Gold]<upon declaring friendship>",
-            "[50 Gold]<upon declaring a defensive pact>",
+            "[50] Gold<upon entering a war with [All] Civilizations>",
+            "[50] Gold<upon declaring friendship>",
+            "[50] Gold<upon declaring a defensive pact>"
 
         ],
         "requiredTech": "Amino Acid"
